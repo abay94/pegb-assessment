@@ -1,3 +1,4 @@
 .rebar3
 logs
 _build
+.idea
