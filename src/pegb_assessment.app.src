@@ -1,0 +1,18 @@
+{application, pegb_assessment,
+ [{description, "An OTP application"},
+  {vsn, "0.1.0"},
+  {registered, []},
+  {mod, {pegb_assessment_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    cowboy,
+    jwt,
+    jiffy
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache-2.0"]},
+  {links, []}
+ ]}.

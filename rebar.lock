@@ -1,0 +1,38 @@
+{"1.2.0",
+[{<<"base64url">>,{pkg,<<"base64url">>,<<"0.0.1">>},1},
+ {<<"cowboy">>,
+  {git,"https://github.com/ninenines/cowboy.git",
+       {ref,"d3f15cfd8b2bb4c0c697bd995dfa4546474235ad"}},
+  0},
+ {<<"cowlib">>,
+  {git,"https://github.com/ninenines/cowlib",
+       {ref,"bd37be4d3b065600c3b76b492535e76e5d413fc1"}},
+  1},
+ {<<"goldrush">>,{pkg,<<"goldrush">>,<<"0.1.9">>},1},
+ {<<"jiffy">>,
+  {git,"https://github.com/emqx/jiffy",
+       {ref,"bb28d324a24f787ac4ee8f8d16f02f102007c24b"}},
+  0},
+ {<<"jsx">>,{pkg,<<"jsx">>,<<"2.8.0">>},1},
+ {<<"jwt">>,
+  {git,"https://github.com/artemeff/jwt",
+       {ref,"cf0fc2688148a5b4e1583e0a2788c0aa5b522df7"}},
+  0},
+ {<<"lager">>,
+  {git,"https://github.com/erlang-lager/lager.git",
+       {ref,"22e62f28e5afabe90a6f31bcde367a2b5799fc94"}},
+  0},
+ {<<"ranch">>,
+  {git,"https://github.com/ninenines/ranch",
+       {ref,"55c2a9d623454f372a15e99721a37093d8773b48"}},
+  1}]}.
+[
+{pkg_hash,[
+ {<<"base64url">>, <<"36A90125F5948E3AFD7BE97662A1504B934DD5DAC78451CA6E9ABF85A10286BE">>},
+ {<<"goldrush">>, <<"F06E5D5F1277DA5C413E84D5A2924174182FB108DABB39D5EC548B27424CD106">>},
+ {<<"jsx">>, <<"749BEC6D205C694AE1786D62CEA6CC45A390437E24835FD16D12D74F07097727">>}]},
+{pkg_hash_ext,[
+ {<<"base64url">>, <<"FAB09B20E3F5DB886725544CBCF875B8E73EC93363954EB8A1A9ED834AA8C1F9">>},
+ {<<"goldrush">>, <<"99CB4128CFFCB3227581E5D4D803D5413FA643F4EB96523F77D9E6937D994CEB">>},
+ {<<"jsx">>, <<"A8BA15D5BAC2C48B2BE1224A0542AD794538D79E2CC16841A4E24CA75F0F8378">>}]}
+].
