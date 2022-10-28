@@ -21,14 +21,9 @@ start(_StartType, _StartArgs) ->
 		env => #{dispatch => Dispatch},
 		middlewares => [cowboy_router, jwt_check, cowboy_handler]
 	}),
-	init_table(),
 	pegb_assessment_sup:start_link().
 
 stop(_State) ->
     ok = cowboy:stop_listener(http).
 
 %% internal functions
-
-init_table() ->
-  Table = ets:new(register_table, [set, named_table]),
-  {ok,Table}.
