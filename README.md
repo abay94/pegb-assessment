@@ -25,7 +25,7 @@ Run without release:
 
 **Reasons why, I have not finished all tasks**:
 1. There was not enough time and energy))
-2. The last coding on erlang was 1 year ago))
+2. The last coding on erlang was 1 year ago, therefor it takes more time than it should be))
 
 If you have any questions, I am ready to answer. 
 
